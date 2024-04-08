@@ -8,7 +8,6 @@ namespace SampleWebApi.EFCore
     {
         [Key, Required]
         public int Id { get; set; }
-        public int Product_id { get; set; }
         public virtual Product Product { get; set; }
         public string Name { get; set; }
         public string Address { get; set; }
